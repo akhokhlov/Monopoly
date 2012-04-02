@@ -1,0 +1,8 @@
+#environment {
+	float: left;
+	width: 600px;
+	height: 601px;
+	border: 3px solid black;
+	position: relative;
+	background-image: url(images/bg1.png);
+}
