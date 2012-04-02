@@ -8,7 +8,7 @@ var maxHeight = 500;
 var theCreature;
 var theCreature2;
 
-var interval = 1;
+var interval = 100;
 var creatureList = new Array();
 var grid = new MultiDimensionalArray(maxWidth, maxHeight);
 
@@ -17,20 +17,20 @@ function rand(maxNum) {
 }
 
 function createNewEnvironment() {
-/*
-	size = rand(maxSize);
+
+	size = 50;
 	creatureList[0] = new Creature();
 	creatureList[0].createAt("thisId1", 0, rand(maxWidth - size),
 			rand(maxHeight - size), size, rand(255), rand(255), rand(255), -10
 					+ rand(20), -10 + rand(20));
-	size = rand(maxSize);
+	size = 50;
 	creatureList[1] = new Creature();
 	creatureList[1].createAt("thisId2", 1, rand(maxWidth - size),
 			rand(maxHeight - size), size, rand(255), rand(255), rand(255), -10
 					+ rand(20), -10 + rand(20));
 
 	setTimeout("nextTurn()", interval);
-*/
+
 }
 
 function nextTurn() {

@@ -81,8 +81,9 @@ function Creature() {
 		theDiv = document.getElementById(this.id);
 		theDiv.style.left = this.x;
 		theDiv.style.top = this.y;
-		theDiv.style.backgroundColor = "rgb(" + this.colorRed + ", "
-				+ this.colorGreen + "," + this.colorBlue + ")";
+		//theDiv.style.backgroundColor = "rgb(" + this.colorRed + ", "
+		//		+ this.colorGreen + "," + this.colorBlue + ")";
+		theDiv.style.backgroundImage = "url(images/running_man_right1.png)";
 
 		grid[this.x][this.y] = this.gridIndex;
 	};
@@ -124,8 +125,9 @@ function Creature() {
 		theDiv.style.height = this.size;
 		theDiv.style.width = this.size;
 
-		theDiv.style.backgroundColor = "rgb(" + this.colorRed + ", "
-				+ this.colorGreen + "," + this.colorBlue + ")";
+		//theDiv.style.backgroundColor = "rgb(" + this.colorRed + ", "
+		//		+ this.colorGreen + "," + this.colorBlue + ")";
+		theDiv.style.backgroundImage = "url(images/running_man_right1.png)";
 
 		creatureList[this.gridIndex] = this;
 		grid[this.x][this.y] = this.gridIndex;
